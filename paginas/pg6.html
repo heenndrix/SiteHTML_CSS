@@ -20,7 +20,6 @@
             <li class="listelemen"><a href="pg2.html">Documento HTML</a></li>
             <li class="listelemen"><a href="pg3.html">Pricipais TAGS HTML</a></li>
             <li class="listelemen"><a href="pg4.html">Referencias HTML</a></li>
-            <li class="listelemen"><a href="pg5.html">História CSS</a></li>
             <li class="listelemen"><a href="pg6.html">Documento CSS</a></li>
             <li class="listelemen"><a href="pg7.html">Pricipais atributos CSS</a></li>
             <li class="listelemen"><a href="pg8.html">Referencias CSS</a></li>
@@ -32,7 +31,56 @@
 </header>
 <div style="margin: 100px; background-color: antiquewhite; margin-left: 10px; margin-right: 10px; height: 100%; ">
    <!--Todo o codigo da página deve ser escrito aqui usar as tags section, article, main mais exemplos no link https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065#tag-main--> 
-   
+   <h1>Cascading Style Sheets</h1>
+   <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a <br> um documento web.</p>
+   <p>O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags style. Também é<br></p>
+   possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que<br>
+   contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo<br>
+   CSS, basta modifica-lo.
+   <h2>Sintaxe</h2>
+   <p>CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês para especificar os nomes de diferentes propriedade de<br>
+       estilo de uma página.
+   </p>
+   <p>Uma instrução CSS consiste em um seletor e um bloco de declaração. Cada declaração contém uma propriedade e um valor,<br>
+       separados por dois pontos (:). Cada declaração é separada por ponto e vírgula (;).</p>
+       <p>Em CSS, seletores são usados para declarar a quais elementos de marcação um estilo se aplica, uma espécie de expressão<br>
+           correspondente. Os seletores podem ser aplicados a todos os elementos de um tipo específico, ou apenas aqueles elementos que<br>
+           correspondam a um determinado atributo; elementos podem ser combinados, dependendo de como eles são colocados em<br>
+           relação uns aos outros no código de marcação, ou como eles estão aninhados dentro do objeto de documento modelo.</p>
+           <p>Pseudoclasse é outra forma de especificação usada em CSS para identificar os elementos de marcação, e, em alguns casos, ações específicas de<br>
+               usuário para o qual um bloco de declaração especial se aplica. Um exemplo frequentemente utilizado é o :hover pseudoclasse que se aplica um<br>
+               estilo apenas quando o usuário 'aponta para' o elemento visível, normalmente, mantendo o cursor do mouse sobre ele. Isto é anexado a um seletor<br>
+               como em a:hover ou #elementid:hover. Outras pseudoclasses e pseudoelementos são, p. ex., :first-line, :visited ou :before. Uma<br>
+               pseudoclasse especial é :lang(c), "c".</p>
+               <p>Uma pseudoclasse seleciona elementos inteiros, tais como :link ou :visited, considerando que um pseudoelemento faz uma seleção que pode ser<br>
+                   constituída por elementos parciais, tais como :first-line ou :first-letter.</p>
+                   <p>Aqui está um exemplo que resume as regras acima:</p>
+                 <p>selector [, selector2, ...][:pseudo-class] {<br>
+                   property: value;<br>
+                  [property2: value2;<br>
+                   ...]<br>
+                 }
+                 /* comment */</p>
+                 <h2>Seletores</h2>
+                 <p>Definição de estilo é um conjunto de propriedades visuais para um elemento, o CSS define regras que fazem as definições de estilo casarem com um<br>
+                   elemento ou grupo de elemento, o documento pode conter um bloco de CSS num elemento style ou usando o elemento link apontando para um<br>
+                   arquivo externo que contenha o bloco CSS.</p>
+                   <p>Para uso com o CSS, foi criado o atributo class que todo elemento pode conter.</p>
+                   <p>As regras de casamento para o CSS são chamadas de seletores, uma definição de estilo pode ser casada com um seletor ou um grupo de seletores<br>
+                       separados por vírgula, um seletor pode casar um elemento por:</p>
+                       <ul>
+                           <li><strong>elemento do tipo </strong>: element_name { style definition; }</li>
+                           <li><strong> do tipo com a classe</strong> : element_name.class_name { style definition; }</li>
+                           <li><strong>todos os elementos com a classe</strong> : .class_name { style definition; }</li>
+                           <li><strong>o elemento com o id </strong>: #id_of_element { style definition; }</li>
+                           <li><strong>asamento de um grupo</strong> : element_name_01, element_name_02, .class_name { style definition; }</li>
+                       </ul>
+                       <p><strong>Exemplo</strong></p>
+                       <p>p {text-align: right; color: #BA2;}<br>
+                           p.minhaclasse01 { color:#ABC; }<br>
+                           .minhaclasse02 { color:#CAD; }<br>
+                           # iddomeuelemento { color:#ACD; }<br>
+                           p.minhaclasse03 .minhaclasse04 { color:#ACD; }<br></p>
 
 </div>
 
