@@ -1,0 +1,22 @@
+.pg1 {
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+    border:solid 10px rgba(146, 145, 145, 0.1);
+    
+    
+}
+h1:hover{
+    background-color: rgb(117, 117, 117);
+
+}
+.titlepg_subt {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
